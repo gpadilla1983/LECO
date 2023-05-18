@@ -1,0 +1,42 @@
+﻿/**
+* dynamics.css v1.0.0 by @cibarra
+* Copyright 2015 Code Retailers.
+* http://www.apache.org/licenses/LICENSE-2.0
+*/
+
+
+/*#region Dynamics Spinner Styles */
+/*  ╔╦╗┬ ┬┌┐┌┌─┐┌┬┐┬┌─┐┌─┐  ╔═╗┌─┐┬┌┐┌┌┐┌┌─┐┬─┐ */
+/*   ║║└┬┘│││├─┤│││││  └─┐  ╚═╗├─┘│││││││├┤ ├┬┘ */
+/*  ═╩╝ ┴ ┘└┘┴ ┴┴ ┴┴└─┘└─┘  ╚═╝┴  ┴┘└┘┘└┘└─┘┴└─ */
+
+.blockDiv {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: #ecf0f1;
+  width: 0px;
+  height: 0px;
+  z-index: 5000;
+}
+
+.spinner{
+    position:fixed;
+    z-index: 5001;
+}
+
+.spinner h2 {
+    margin-left: -35%;
+    margin-top: 15%;
+}
+
+.stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+}
+
+/*#endregion Dynamics Spinner Styles */
+
+
+
+
